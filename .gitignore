@@ -1,0 +1,5 @@
+spectra_config.py
+prisma_config.py
+*.env
+__pycache__/
+*.pyc
