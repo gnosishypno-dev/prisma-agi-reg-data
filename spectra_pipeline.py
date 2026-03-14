@@ -687,7 +687,7 @@ def _git_commit_formal_session(session_path: Path, hash_log: Path,
             check=True, capture_output=True, text=True
         )
         result = subprocess.run(
-            ['git', 'push', remote],
+            ['git', 'push', '--set-upstream', remote, 'master'],
             check=True, capture_output=True, text=True
         )
         print(f"  [INTEGRITY] Committed and pushed to {remote}: {session_id}")
