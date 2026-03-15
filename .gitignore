@@ -3,3 +3,4 @@ prisma_config.py
 *.env
 __pycache__/
 *.pyc
+condition_a_prompt*.txt
