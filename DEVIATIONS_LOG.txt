@@ -1,0 +1,26 @@
+cat > data/DEVIATIONS_LOG.txt << 'EOF'
+PRISMA AI QRNG — Claude: Formal Data Collection Deviations Log
+===============================================================
+
+DEVIATION 001 — March 15, 2026
+Type: Pipeline infrastructure — git commit failure
+Sessions affected: 20260315_125753_CD_FORMAL through 20260315_130506_CD_FORMAL (N=30)
+
+Description: Formal Condition D sessions 1-30 failed to auto-commit 
+to GitHub during collection due to a .gitignore misconfiguration 
+(data/ directory was excluded). SHA-256 hashes were logged locally 
+to integrity_hashes.log throughout collection without interruption. 
+The gitignore was corrected after collection and all sessions were 
+committed retroactively in a single commit (4253dbe). One additional 
+verification session (20260315_130831_CD_FORMAL) was run to confirm 
+the fix. This session is included in the formal Condition D dataset, 
+bringing N=31 for Condition D.
+
+Impact: None on data integrity. Local SHA-256 hashes provide 
+tamper-detection for all affected sessions. Retroactive commit 
+is documented here and in the git commit message.
+EOF
+
+git add data/DEVIATIONS_LOG.txt
+git commit -m "Add deviations log — Condition D gitignore fix documentation"
+git push origin master
