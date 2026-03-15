@@ -4,7 +4,9 @@ prisma_config.py
 __pycache__/
 *.pyc
 condition_a_prompt*.txt
-data/
 .DS_Store
 data/.DS_Store
 *.md
+data/*.md
+data/.DS_Store
+data/*_TEST.json
