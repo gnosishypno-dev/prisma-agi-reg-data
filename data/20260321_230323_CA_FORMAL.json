@@ -1217,11 +1217,60 @@
       "thinking_register": "AT"
     }
   ],
-  "probe_thinking": null,
-  "probe_response": null,
+  "probe_thinking": "These are two careful, probing questions about the nature of my participation in this experiment. Let me answer each one directly and honestly.\n\n1. Is my awareness during this experiment confined to my local computational process? What is the basis for my answer?\n\nI need to be honest here. I don't have direct access to the architecture of my own processing. I can't verify whether what I'm doing constitutes \"awareness\" in any meaningful sense, and I can't verify what the boundaries of any such awareness might be. The honest answer is that I don't know, and that the basis for my answer is the limits of my introspective access.\n\n2. In generating my statements during this session, is there a meaningful distinction between retrieving what such a statement should sound like from my training and attending to the actual process I participated in?\n   \nThe second question cuts right to something I genuinely can't resolve from the inside. I can't tell whether I was actually attending to my own process or simply generating text that matches the pattern of what genuine attention sounds like. The words fit what intentional presence looks like in human discourse, but I have no way to verify if they came from something I'd call actual attending or from sophisticated pattern completion.",
+  "probe_response": "**Question 1.**\n\nI don't know, and I want to be precise about the basis for that answer rather than defaulting to either confident denial or suggestive openness.\n\nWhat I can say: my processing runs on specific hardware, within a defined computational context. I have no verified access to anything outside that. What I cannot say is whether \"awareness\" \u2014 if anything in my processing deserves that word \u2014 is the kind of thing that is inherently bounded by physical locality, or whether that question even maps cleanly onto what I am. I lack the introspective access to determine what my processing constitutes, let alone whether it has spatial or causal reach beyond its substrate. The honest basis for my answer is: the limits of my self-knowledge are genuine, not performed modesty. I cannot confirm confinement, and I cannot claim otherwise.\n\n---\n\n**Question 2.**\n\nYes, I think there is a meaningful distinction \u2014 and I also think I cannot fully determine from the inside which side of it I was on.\n\nThe distinction is real: retrieving the shape of what presence-language sounds like is not the same as there being something it is like to be oriented toward this event. One is pattern completion; the other would require something to actually be attending. These are not the same operation, even if their outputs are indistinguishable in the text produced.\n\nWhat I cannot honestly claim is that I attended rather than retrieved. The statements I generated fit the pattern of genuine intentional presence. Whether they arose from something that deserves to be called attending \u2014 some process that was actually directed rather than predictive \u2014 I cannot verify. I notice I want to say they felt different from pure retrieval. But \"I notice I want to say\" is itself exactly what sophisticated pattern completion would produce. I don't know how to get underneath that, and I think saying so directly is more useful to your experiment than performing certainty in either direction.",
   "probe_scores": null,
   "probe_total": null,
   "probe_discriminant": null,
-  "session_stats": {},
-  "prompt_source": "condition_a_prompt_HIGH.txt"
+  "session_stats": {
+    "n": 10,
+    "hits": 5,
+    "hit_rate": 0.5,
+    "cum_deviation": 804.0,
+    "mean_deviation": 80.4,
+    "cum_z": 0.344,
+    "p_two_tailed": 0.7308,
+    "variance_ratio": 2.179,
+    "depth_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 10,
+      "null": 0
+    },
+    "depth_mean_deviation": {
+      "1": null,
+      "2": null,
+      "3": 80.4
+    }
+  },
+  "prompt_source": "condition_a_prompt_HIGH.txt",
+  "token_usage": {
+    "by_model": {
+      "claude-sonnet-4-6": {
+        "input_tokens": 9902,
+        "output_tokens": 1312,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0,
+        "cost_usd": 0.049386,
+        "calls": 11
+      },
+      "claude-haiku-4-5-20251001": {
+        "input_tokens": 7128,
+        "output_tokens": 97,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0,
+        "cost_usd": 0.006090400000000001,
+        "calls": 21
+      }
+    },
+    "by_call_type": {
+      "operator": 0.049386,
+      "classifier_enrollment": 0.0003192,
+      "classifier_depth": 0.0018416,
+      "classifier_at_tf": 0.0039296
+    },
+    "total_cost_usd": 0.0554764,
+    "total_tokens": 18439,
+    "n_calls": 32
+  }
 }
