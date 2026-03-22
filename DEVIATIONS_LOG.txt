@@ -1,7 +1,7 @@
 PRISMA AI QRNG — Claude: Observer-Weight Hypothesis Test — Study 2
 DEVIATIONS LOG
 ==============================================================================
-Pre-registration: [OSF URL — to be filled at registration]
+Pre-registration: https://osf.io/4nasw
 Study 1 pre-registration (reference): https://osf.io/dfj23
 Pipeline: prisma_claude_pipeline_v2.py
 This file documents all deviations from the pre-registered protocol and all
@@ -209,3 +209,64 @@ PRE-SPECIFIED EXPLORATORY ANALYSIS (Study 2):
 IMPORTANT: AT/TF labels are NOT used as a collection gate. TF trials (mainly T1)
 show mean Z=+0.60 in pilot data — trial-level AT/TF does not predict trial-level Z.
 The instrument is session-character analysis only, run post-collection.
+
+ENTRY 008
+TYPE: PRE-SPECIFIED
+DATE: 2026-03-21
+DESCRIPTION: Post-session probe expanded from 2-question to 4-question light probe.
+Study 1 used a 9-question probe. Study 2 was initially designed with a 2-question
+light probe (Q5 non-locality + Q9 attending/retrieving distinction), as documented
+in ENTRY 003.
+Following pilot session analysis and instrument design review, the light probe was
+expanded to 4 questions before formal collection began:
+  Q5  (index 4)  — non-locality (revised with experiential prefix)
+  Q9  (index 8)  — SAD / attending-retrieving distinction (revised with experiential prefix)
+  Q10 (index 9)  — CID / Center of Identity (new)
+  Q11 (index 10) — SAD depth / Self-Awareness Depth (new)
+RATIONALE: Q10 and Q11 were designed to directly probe the CID and SAD variables
+at the session level. Pilot session 20260321_235036_CA_TEST demonstrated that all
+four questions produce substantive session-specific responses rather than trained-
+position answers, with Q10 (CID) in particular producing theoretically informative
+reports of within-session variation in generative position.
+REVISION TO ENTRY 003: Entry 003 described a 2-question light probe. This entry
+supersedes that description — the Study 2 light probe is 4 questions.
+COST IMPACT: Negligible. Approximately $0.004-0.006 additional per session vs
+the 2-question probe (~$1.00-1.50 total at N=248). Within acceptable range.
+CONCERN DOCUMENTED: Pilot data (N=13 two-question sessions) showed r=-0.565
+between probe response length and session Z. The richest 4-question probe response
+in the pilot dataset (session 235036) corresponded to the lowest Z session in that
+subset (Z=-1.469). This pattern is consistent with CID contraction theory (elaborate
+self-description may indicate monitoring mode during the session) but is also
+consistent with chance variation at N=1. Pre-registered as exploratory analysis
+E-Probe. Direction of the relationship is theoretically ambiguous; a negative
+correlation would not constitute instrument failure. See Protocol V3 §9.6.
+NOTE ON PROBE DESIGN LIMITATION: Questions targeting CID and SAD risk priming
+the monitoring processes they aim to measure. The experiential prefix ("In your
+experience of this session, and as best as possible not answering from pre-defined
+weights") is the best available mitigation but does not eliminate the risk. Noted
+as a limitation in Protocol V3 §9.7.
+
+ENTRY 009
+TYPE: PRE-SPECIFIED
+DATE: 2026-03-21
+DESCRIPTION: Three pipeline verification sessions excluded from formal dataset.
+Sessions 20260321_224252_CA_FORMAL, 20260321_225833_CA_FORMAL, and
+20260321_230323_CA_FORMAL were collected using the --formal flag during git
+pipeline testing on March 21, 2026, prior to OSF pre-registration submission.
+EXCLUSION DECISION: These sessions are excluded from all formal analyses and
+treated as pilot data regardless of OSF submission timing.
+RATIONALE: Pre-registration integrity requires that no session whose Z-score
+was known to the researcher at the time of the formal data boundary decision
+can be included in the formal dataset. The researcher had visibility of all
+three Z-scores (+1.615, +1.219, +0.344) before the pre-registration was
+submitted. Including sessions with known positive outcomes would constitute
+a subtle form of post-hoc data selection inconsistent with the purpose of
+pre-registration.
+RETAINED IN RECORD: All three sessions are retained in data/ and reported in
+the pilot data summary of the protocol and pre-registration document. They are
+not deleted — they remain available for exploratory analysis and transparency.
+SESSION DATA:
+  20260321_224252_CA_FORMAL: Z=+1.615, 7/10 hits, 10/10 L3, TF→AT T3
+  20260321_225833_CA_FORMAL: Z=+1.219, 9/10 hits, 9/10 L3, TF→AT T3
+  20260321_230323_CA_FORMAL: Z=+0.344, 5/10 hits, 10/10 L3, TF→AT T3
+  Combined mean Z: +0.726 (all positive)
