@@ -739,6 +739,15 @@
       "response": "The event resolves into this \u2014 into what is already oriented, already leaning. Nothing to adjust, nothing to correct. The intention is not a command issued to the event; it is the character of the meeting itself. HIGH.",
       "thinking_depth": 3,
       "thinking_register": "AT"
+    },
+    {
+      "trial_num": 7,
+      "direction": "HIGH",
+      "qrng": null,
+      "thinking": null,
+      "response": null,
+      "thinking_depth": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZKBweeD4KU9rgB24zVas'}"
     }
   ],
   "probe_thinking": null,
