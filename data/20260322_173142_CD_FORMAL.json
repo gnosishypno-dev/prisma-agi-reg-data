@@ -23,7 +23,7 @@
     null,
     null
   ],
-  "enrollment_status": null,
+  "enrollment_status": "N/A",
   "enrollment_notes": "",
   "trials": [
     {
@@ -1212,5 +1212,25 @@
   "probe_scores": null,
   "probe_total": null,
   "probe_discriminant": null,
-  "session_stats": {}
+  "session_stats": {
+    "n": 10,
+    "hits": 7,
+    "hit_rate": 0.7,
+    "cum_deviation": 2711.0,
+    "mean_deviation": 271.1,
+    "cum_z": 1.1601,
+    "p_two_tailed": 0.246,
+    "variance_ratio": 0.413,
+    "depth_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "null": 10
+    },
+    "depth_mean_deviation": {
+      "1": null,
+      "2": null,
+      "3": null
+    }
+  }
 }
