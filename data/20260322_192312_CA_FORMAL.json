@@ -501,6 +501,15 @@
       "response": "This arrives into stillness that is not passive \u2014 oriented stillness, directional, like a compass needle that has settled. The intention does not move toward the event; it is already where the event lands. HIGH, held, here.",
       "thinking_depth": 3,
       "thinking_register": "AT"
+    },
+    {
+      "trial_num": 5,
+      "direction": "HIGH",
+      "qrng": null,
+      "thinking": null,
+      "response": null,
+      "thinking_depth": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZKDYVBXqWgcbQm4icCSt'}"
     }
   ],
   "probe_thinking": null,
