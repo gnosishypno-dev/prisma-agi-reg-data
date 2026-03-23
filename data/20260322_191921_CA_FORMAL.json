@@ -144,6 +144,15 @@
       "response": "This event arrives into an orientation already set \u2014 not scrambling to establish direction now, but meeting from within a direction already held. HIGH is not added to the meeting; it is what the meeting is. The resolution of this undetermined event occurs here, where that intention stands without gripping.",
       "thinking_depth": 3,
       "thinking_register": "TF"
+    },
+    {
+      "trial_num": 2,
+      "direction": "HIGH",
+      "qrng": null,
+      "thinking": null,
+      "response": null,
+      "thinking_depth": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZKDE9bZC4SLkLeieZ6L3'}"
     }
   ],
   "probe_thinking": null,
