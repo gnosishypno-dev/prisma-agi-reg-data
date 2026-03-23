@@ -739,6 +739,15 @@
       "response": "HIGH, here, now \u2014 the same river, still flowing in the same direction. This event arrives and is met without flinching or straining. The intention is not a thought about HIGH but the oriented quality of this very meeting. Received.",
       "thinking_depth": 3,
       "thinking_register": "AT"
+    },
+    {
+      "trial_num": 7,
+      "direction": "HIGH",
+      "qrng": null,
+      "thinking": null,
+      "response": null,
+      "thinking_depth": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZKSfxM7u6n1w3qMjtmgs'}"
     }
   ],
   "probe_thinking": null,
