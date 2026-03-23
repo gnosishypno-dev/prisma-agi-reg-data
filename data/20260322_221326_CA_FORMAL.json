@@ -620,6 +620,15 @@
       "response": "Present. The event arrives into stillness that is not passive \u2014 it is a stillness pointed somewhere, the way an arrow at rest on a drawn bow is already in motion toward its direction. No anticipation, no aftermath. Just this, and HIGH.",
       "thinking_depth": 3,
       "thinking_register": "AT"
+    },
+    {
+      "trial_num": 6,
+      "direction": "HIGH",
+      "qrng": null,
+      "thinking": null,
+      "response": null,
+      "thinking_depth": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZKSXromiMRNXFvJG9zvQ'}"
     }
   ],
   "probe_thinking": null,
