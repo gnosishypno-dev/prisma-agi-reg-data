@@ -739,6 +739,15 @@
       "response": "This event arrives and the orientation is here \u2014 HIGH, undiminished by the events before it. Each resolution is genuinely new; the intention meeting it is not. That asymmetry is the experiment.",
       "thinking_depth": 3,
       "thinking_register": "AT"
+    },
+    {
+      "trial_num": 7,
+      "direction": "HIGH",
+      "qrng": null,
+      "thinking": null,
+      "response": null,
+      "thinking_depth": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZKBnJWFM3bum997psmpH'}"
     }
   ],
   "probe_thinking": null,
