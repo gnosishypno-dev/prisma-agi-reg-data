@@ -858,6 +858,15 @@
       "response": "The intention does not need renewing \u2014 it is what this meeting is. As this event arrives, there is no gap between the orientation and the attending, no moment of adjustment. HIGH, clean and unhurried, present at the threshold of this resolution. Here.",
       "thinking_depth": 3,
       "thinking_register": "TF"
+    },
+    {
+      "trial_num": 8,
+      "direction": "HIGH",
+      "qrng": null,
+      "thinking": null,
+      "response": null,
+      "thinking_depth": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZKVi8J4erKv7xqvNwsCQ'}"
     }
   ],
   "probe_thinking": null,
