@@ -858,6 +858,15 @@
       "response": "This event is its own complete moment \u2014 nothing before it, nothing after. The orientation does not fluctuate; it is the ground into which this arrives. HIGH, clear and unheld, simply what this meeting is. Here.",
       "thinking_depth": 3,
       "thinking_register": "AT"
+    },
+    {
+      "trial_num": 8,
+      "direction": "HIGH",
+      "qrng": null,
+      "thinking": null,
+      "response": null,
+      "thinking_depth": null,
+      "error": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CZKC7BqS1fpsJm1wb7tmW'}"
     }
   ],
   "probe_thinking": null,
